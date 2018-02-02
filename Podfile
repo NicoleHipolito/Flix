@@ -11,6 +11,7 @@ target 'Flixeu' do
   # Add additional dependencies
   pod 'OAuthSwift', '~> 1.2.0'
   pod 'OAuthSwiftAlamofire'
+  pod 'AlamofireImage', '~> 3.1'
 
   target 'FlixeuTests' do
     inherit! :search_paths
