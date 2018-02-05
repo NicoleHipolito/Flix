@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282135A92029158500978E57 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282135A82029158500978E57 /* DetailViewController.swift */; };
 		288D60A22022E13B0035029D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D60A12022E13B0035029D /* AppDelegate.swift */; };
 		288D60A72022E13B0035029D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288D60A52022E13B0035029D /* Main.storyboard */; };
 		288D60A92022E13B0035029D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288D60A82022E13B0035029D /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		048FA9EBCDCBB967B8E0ACB2 /* Pods_FlixeuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixeuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		282135A82029158500978E57 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		288D609E2022E13B0035029D /* Flixeu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixeu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288D60A12022E13B0035029D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		288D60A62022E13B0035029D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282135A6202914F300978E57 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28E817E22022E312001529EE /* NowPlayingViewController.swift */,
+				282135A82029158500978E57 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		282135A72029150400978E57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28E817E4202449B5001529EE /* MovieCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		288D60952022E13B0035029D = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +135,13 @@
 		288D60A02022E13B0035029D /* Flixeu */ = {
 			isa = PBXGroup;
 			children = (
-				28E817E22022E312001529EE /* NowPlayingViewController.swift */,
+				282135A72029150400978E57 /* Views */,
+				282135A6202914F300978E57 /* ViewControllers */,
 				288D60A12022E13B0035029D /* AppDelegate.swift */,
 				288D60A52022E13B0035029D /* Main.storyboard */,
 				288D60A82022E13B0035029D /* Assets.xcassets */,
 				288D60AA2022E13B0035029D /* LaunchScreen.storyboard */,
 				288D60AD2022E13B0035029D /* Info.plist */,
-				28E817E4202449B5001529EE /* MovieCell.swift */,
 			);
 			path = Flixeu;
 			sourceTree = "<group>";
@@ -470,6 +489,7 @@
 				28E817E32022E312001529EE /* NowPlayingViewController.swift in Sources */,
 				288D60A22022E13B0035029D /* AppDelegate.swift in Sources */,
 				28E817E5202449B5001529EE /* MovieCell.swift in Sources */,
+				282135A92029158500978E57 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
