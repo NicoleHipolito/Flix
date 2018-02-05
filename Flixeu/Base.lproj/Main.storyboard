@@ -132,11 +132,11 @@
             </objects>
             <point key="canvasLocation" x="1536.8" y="117.39130434782609"/>
         </scene>
-        <!--Item-->
+        <!--Now Playing-->
         <scene sceneID="8Nc-vv-mjI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1dw-7D-WGx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="fjZ-lE-PnG"/>
+                    <tabBarItem key="tabBarItem" title="Now Playing" image="now_playing_tabbar_item" id="fjZ-lE-PnG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EMC-4I-zHF">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -162,14 +162,14 @@
                     </tabBar>
                     <connections>
                         <segue destination="1dw-7D-WGx" kind="relationship" relationship="viewControllers" id="2P7-MT-BqN"/>
-                        <segue destination="hzG-uT-7OC" kind="relationship" relationship="viewControllers" id="JPi-tv-xo6"/>
+                        <segue destination="DHM-0J-QDF" kind="relationship" relationship="viewControllers" id="JPi-tv-xo6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pzm-uq-l7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-679" y="117"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="NkK-x8-ynk">
             <objects>
                 <viewController id="hzG-uT-7OC" sceneMemberID="viewController">
@@ -179,11 +179,34 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Upc-Zx-36w"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="N9E-VI-daT"/>
+                    <navigationItem key="navigationItem" id="aHQ-yX-aB9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B23-wn-1cB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-679" y="828"/>
+            <point key="canvasLocation" x="68" y="886"/>
+        </scene>
+        <!--Superhero-->
+        <scene sceneID="GGT-5f-FKD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DHM-0J-QDF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Superhero" image="superhero_tabbar_item" id="N9E-VI-daT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Fga-0k-f8O">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hzG-uT-7OC" kind="relationship" relationship="rootViewController" id="6ah-qr-a3r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Zv-aO-9by" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-679" y="886"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="now_playing_tabbar_item" width="21" height="21"/>
+        <image name="superhero_tabbar_item" width="21" height="23"/>
+    </resources>
 </document>
