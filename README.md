@@ -2,7 +2,7 @@
 
 **Flix** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -131,7 +131,7 @@ Time spent: **3** hours spent in total
 
 The following **required** user stories are complete:
 
-- The following screens use AutoLayout to adapt to various orientations and screen sizes
+- [x] The following screens use AutoLayout to adapt to various orientations and screen sizes
 - [x] Movie feed view (+3pt)
 - [x] Detail view (+2pt)
 
@@ -160,7 +160,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The concept of auto-layout seemed overwhelming to understand at first but as I struggled more and understood how to fix them, doing them got easier.
 
 ## License
 
