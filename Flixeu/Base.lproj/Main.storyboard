@@ -122,7 +122,7 @@
                                     <constraint firstAttribute="width" constant="125" id="rbx-Bd-aJV"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coco" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csk-Fb-Q0U">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Coco" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csk-Fb-Q0U">
                                 <rect key="frame" x="149" y="294.5" width="42.5" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -146,6 +146,7 @@
                             <constraint firstItem="KR7-2j-jCK" firstAttribute="leading" secondItem="W4L-hL-LHx" secondAttribute="leading" constant="16" id="3ma-RY-73M"/>
                             <constraint firstItem="zb2-tY-DEt" firstAttribute="height" secondItem="pom-IG-MDM" secondAttribute="height" multiplier="1:3" id="7gg-LP-pmi"/>
                             <constraint firstItem="pgh-si-ji2" firstAttribute="top" secondItem="KR7-2j-jCK" secondAttribute="bottom" constant="8" id="91t-sP-Dyg"/>
+                            <constraint firstItem="W4L-hL-LHx" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="csk-Fb-Q0U" secondAttribute="trailing" constant="8" id="9WM-WG-oyX"/>
                             <constraint firstItem="W4L-hL-LHx" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="pgh-si-ji2" secondAttribute="bottom" constant="8" id="Iit-yg-bDw"/>
                             <constraint firstItem="zb2-tY-DEt" firstAttribute="trailing" secondItem="W4L-hL-LHx" secondAttribute="trailing" id="JC5-Ed-bzH"/>
                             <constraint firstItem="csk-Fb-Q0U" firstAttribute="leading" secondItem="KR7-2j-jCK" secondAttribute="trailing" constant="8" id="KN8-2L-sUW"/>
