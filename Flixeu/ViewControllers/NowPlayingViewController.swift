@@ -14,7 +14,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    
+//    var movies: [Movie] = []
     var movies: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
     override func viewDidLoad() {
