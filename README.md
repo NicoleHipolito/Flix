@@ -188,10 +188,10 @@ Time spent: **X** hours spent in total
 
 The following **required** user stories are complete:
 
-- [ ] Create a movie model (+2pt)
-- [ ] Implement the movie model (+2pt)
-- [ ] Implement property observers (+2pt)
-- [ ] Create a basic API Client (+2pt)
+- [x] Create a movie model (+2pt)
+- [x] Implement the movie model (+2pt)
+- [x] Implement property observers (+2pt)
+- [x] Create a basic API Client (+2pt)
 
 The following **additional** user stories are implemented:
 
@@ -216,7 +216,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2018 Nicole Hipolito and Regie
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
