@@ -201,9 +201,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="D0P-6h-4Tf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="2" id="Eng-kF-xVs">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Eng-kF-xVs">
                                     <size key="itemSize" width="125" height="197"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -219,7 +219,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Fn-bN-Stj">
                                                     <rect key="frame" x="0.0" y="0.0" width="125" height="197"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -232,10 +232,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="D0P-6h-4Tf" secondAttribute="bottom" id="0tQ-Mm-Atq"/>
-                            <constraint firstItem="D0P-6h-4Tf" firstAttribute="trailing" secondItem="YeB-6a-aVc" secondAttribute="trailing" id="nuR-9R-fCR"/>
-                            <constraint firstItem="D0P-6h-4Tf" firstAttribute="top" secondItem="YeB-6a-aVc" secondAttribute="top" id="xF2-wD-Q9e"/>
-                            <constraint firstItem="D0P-6h-4Tf" firstAttribute="leading" secondItem="YeB-6a-aVc" secondAttribute="leading" id="z32-P9-hfX"/>
+                            <constraint firstItem="D0P-6h-4Tf" firstAttribute="leading" secondItem="YeB-6a-aVc" secondAttribute="leading" id="OT7-1F-H50"/>
+                            <constraint firstItem="D0P-6h-4Tf" firstAttribute="trailing" secondItem="YeB-6a-aVc" secondAttribute="trailing" id="Otr-xw-tIf"/>
+                            <constraint firstItem="D0P-6h-4Tf" firstAttribute="bottom" secondItem="YeB-6a-aVc" secondAttribute="bottom" id="qTo-9j-gs1"/>
+                            <constraint firstItem="D0P-6h-4Tf" firstAttribute="top" secondItem="YeB-6a-aVc" secondAttribute="top" id="tTC-2M-Ecz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YeB-6a-aVc"/>
                     </view>
@@ -279,7 +279,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DU9-dl-Jck">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="2" id="cnJ-bJ-MMz">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="cnJ-bJ-MMz">
                                     <size key="itemSize" width="125" height="197"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
