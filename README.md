@@ -180,9 +180,9 @@ limitations under the License.
 
 # Lab 5 - *Flix*
 
-**Name of your app** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flix App** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
@@ -195,28 +195,30 @@ The following **required** user stories are complete:
 
 The following **additional** user stories are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+- [x] List anything else that you can get done to improve the app functionality! (+1-3pts)
+- We added another tab bar so we could use the fetchPopularMovie method from the MovieApiManager
+- We also set the autolayouts for the superhero and popular movie tabs
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
-1.
-2.
+1. We would like to know more about the API Manager
+2. What is the limit to how many tabs we can have
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Flix4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+Some challenges that we faced were that it took some time understanding the concept of the model. After we figured that out it was trying to locate the code that we needed to refactor.
 
 ## License
 
-Copyright 2018 Nicole Hipolito and Regie
+Copyright 2018 Nicole Hipolito and Regie Daquioag
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

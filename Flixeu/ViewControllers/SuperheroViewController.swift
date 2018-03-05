@@ -46,7 +46,7 @@ class SuperheroViewController: UIViewController, UICollectionViewDataSource {
     }
     
     func fetchMovies(){
-        let url = URL(string: "https://api.themoviedb.org/3/movie/297762/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US")!
+        let url = URL(string: "https://api.themoviedb.org/3/movie/1930/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US")!
         //        ! <- force unwraps
         
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -62,13 +62,7 @@ class SuperheroViewController: UIViewController, UICollectionViewDataSource {
                 let movies = dataDictionary["results"] as! [[String:Any]]
                 self.movies = movies
                 self.collectionView.reloadData()
-//                self.refreshControl.endRefreshing()
             }
-            // try! <- force unwrapping
-            
-            // Stop the activity indicator
-            // Hides automatically if "Hides When Stopped" is enabled
-//            self.activityIndicator.stopAnimating()
         }
         
         task.resume()
@@ -78,16 +72,5 @@ class SuperheroViewController: UIViewController, UICollectionViewDataSource {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
