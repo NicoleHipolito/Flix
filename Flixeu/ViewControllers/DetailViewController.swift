@@ -27,7 +27,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var releaseDateLabel: UILabel!
     
     @IBOutlet weak var overviewLabel: UILabel!
-    
+    c
 //    var movie: [String: Any]?
     var movie: Movie!
     override func viewDidLoad() {
